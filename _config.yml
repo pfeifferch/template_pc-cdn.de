@@ -1,4 +1,4 @@
 plugins:
  - jekyll-remote-theme
 livereload: true
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: https://github.com/mmistakes/minimal-mistakes

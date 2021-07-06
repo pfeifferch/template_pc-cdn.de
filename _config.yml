@@ -1,4 +1,4 @@
 plugins:
  - jekyll-remote-theme
 livereload: true
-remote_theme: https://github.com/pfeifferch/Themes-landing-page-theme
+//remote_theme: https://github.com/pfeifferch/Themes-landing-page-theme

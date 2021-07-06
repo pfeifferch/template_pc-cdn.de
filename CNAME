@@ -1,1 +1,1 @@
-new.pc-cdn.eu
+git.pc-cdn.de

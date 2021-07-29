@@ -2,3 +2,5 @@ plugins:
  - jekyll-remote-theme
 livereload: true
 remote_theme: https://github.com/pfeifferch/templates-r-jekyll-theme
+
+theme: jekyll-theme-minimal

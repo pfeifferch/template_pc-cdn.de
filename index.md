@@ -1,4 +1,4 @@
-# template files 4 pc-cdn
+# theme files 4 pc-cdn
 =============================
 
 - websites @.pc-cdn.de based on jekyll-gulp-sass-browser-sync (exception subdomain goto. )

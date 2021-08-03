@@ -1,8 +1,8 @@
 # template files 4 pc-cdn
 =============================
 
-- website pc-cdn .de .eu based on jekyll-gulp-sass-browser-sync
+- websites @.pc-cdn.de based on jekyll-gulp-sass-browser-sync (exception subdomain goto. )
 
-- website pc-cdn .de .eu based on jekyll-gulp-sass-browser-sync
+- websites @.pc-cdn.eu based on jekyll-gulp-sass-browser-sync (exception subdomain goto. )
 
-- Theme: based on Writr by WordPress.com.
+- Template based on Theme: Writr by WordPress.com.

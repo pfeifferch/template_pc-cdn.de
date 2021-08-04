@@ -9,6 +9,8 @@ else $device = "desktop";
 
 
 ?>*/ <?php echo $device; ?> */
-body { background-color: #FFCB42;}
+body {
+background-color: #FFCB42;
+}
 
 @import url("https://template.pc-cdn.de/assetss/mobiledetect/<?php echo $device; ?>.css");

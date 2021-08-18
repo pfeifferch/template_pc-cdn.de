@@ -26,7 +26,7 @@ $(document).ready(function() {
 	$bildinfo = pathinfo($ordner."/".$bild); 
 	if ($bild != "." && $bild != ".."  && $bild != "_notes" && $bildinfo['basename'] != "Thumbs.db") { 
 	?>
-	<img src="<?php echo $bildinfo['dirname']."/".$bildinfo['basename'];?>" alt="Vorschau" />
+	<p><img src="<?php echo $bildinfo['dirname']."/".$bildinfo['basename'];?>" alt="Vorschau" height=100px width=100px /><?php echo $bildinfo['basename']; ?></p> 
 <?php
 	};
  };

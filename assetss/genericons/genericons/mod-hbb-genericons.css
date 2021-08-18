@@ -1,0 +1,16 @@
+/**
+
+	Genericons
+
+*/
+@import 'genericons.css';
+/*
+@import url("https://template.pc-cdn.de/assetss/genericons/genericons/genericons.css"); 
+*/
+
+
+
+
+.genericon-post:before { content: "\f100"; }
+
+

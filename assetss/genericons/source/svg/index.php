@@ -20,7 +20,7 @@ $(document).ready(function() {
 <body>    
 <div id="galerie">
 	<?php
-    $ordner = "images";
+    $ordner = "";
     $allebilder = scandir($ordner);
     foreach ($allebilder as $bild) {
 	$bildinfo = pathinfo($ordner."/".$bild); 

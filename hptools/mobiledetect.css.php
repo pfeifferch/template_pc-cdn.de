@@ -8,7 +8,7 @@ else $device = "desktop";
 
 
 
-?>@import url("https://template.pc-cdn.de/assetss/mobiledetect/<?php echo $device; ?>.css");
+?>@import url("https://template.pc-cdn.de/assets/mobiledetect/<?php echo $device; ?>.css");
 */ <?php echo $device; ?> */
 
 

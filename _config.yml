@@ -6,8 +6,8 @@ highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:title.html
 excerpt_separator: <!--more-->
-themecolor: none # not possible
-themeURI: none
+themecolor: blue # not possible
+themeURI: https://template.pc-cdn.de/content/themes/writr/css/none.css
 themeBGimage: none
 GallerieDir: none
 hbbhomeurl: none

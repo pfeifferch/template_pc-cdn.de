@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 # theme files 4 pc-cdn
 =============================
 

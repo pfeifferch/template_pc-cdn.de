@@ -1,1 +1,24 @@
 
+name: PC-CDN 
+title: PC-CDN
+subtitle: Theme/Template CDN
+markdown: kramdown
+highlighter: rouge # pygments or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:title.html
+excerpt_separator: <!--more-->
+themecolor: none # not possible
+themeURI: none
+themeBGimage: none
+GallerieDir: none
+hbbhomeurl: none
+
+# Pagination Settings 
+#pagination:
+#  enabled: true
+#  per_page: 2
+#  permalink: '/page/:num/'
+#  title: ' - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true

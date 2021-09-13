@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /index.html
+title: Home
 ---
 # theme files 4 pc-cdn
 =============================

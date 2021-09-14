@@ -105,7 +105,7 @@
 <!-- Open Graph Tags -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ site.title }}">
-<meta property="og:description" content="{{ site.description }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta name="description" content="{{ page.description | default: site.description }}" />
 <meta property="og:url" content="./">
 <meta property="og:site_name" content="{{ site.title }}">
@@ -256,6 +256,7 @@
 </div>
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="row site-info">
+{% include socialmedia.html %}	
 		{% include footer.html %}				</div>
 <!-- .site-info -->
 </footer><!-- #colophon -->

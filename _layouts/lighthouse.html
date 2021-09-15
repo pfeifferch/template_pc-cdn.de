@@ -9,17 +9,23 @@
   <title>{{ page.title }} - {{ site.title }} &#8211; {{ site.subtitle }}</title>
 <meta name="robots" content="max-image-preview:large">
 
-<link rel="stylesheet" id="genericons-css" href="https://template.pc-cdn.de/assets/genericons/genericons/mod-hbb-genericons.css" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="{{ site.templateserverurl }}/assets/genericons/genericons/mod-hbb-genericons.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
 <link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="bootstrap-css" href="https://template.pc-cdn.de//content/themes/lighthouse/css/bootstrap.css" type="text/css" media="all">
-<link rel="stylesheet" id="lighthouse-style-css" href="https://template.pc-cdn.de//content/themes/lighthouse/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="{{ site.templateserverurl }}//content/themes/lighthouse/css/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="lighthouse-style-css" href="{{ site.templateserverurl }}//content/themes/lighthouse/style.css" type="text/css" media="all">
 {% include lighthouse-style-inline-css.html %}
-<link rel="stylesheet" id="font-awesome-css" href="https://template.pc-cdn.de/content/themes/lighthouse/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="{{ site.templateserverurl }}/content/themes/lighthouse/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="lighthousegooglefonts-css" href="//fonts.googleapis.com/css?family=Lato:400,300italic,700,700i|Source+Sans+Pro:400,400italic" type="text/css" media="all">
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9/css/jetpack.css" type="text/css" media="all">
+
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.9/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
+<script type="text/javascript" src="{{ site.templateserverurl }}/content/themes/lighthouse/js/bootstrap.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="{{ site.templateserverurl }}/content/themes/lighthouse/js/skip-link-focus-fix.js" id="lighthouse-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="{{ site.templateserverurl }}/content/themes/lighthouse/js/lighthouse.js" id="lighthouse-js-js"></script>
+
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <!--[if lt IE 9]>
@@ -118,9 +124,9 @@
 {% include gads.html %}
 {% include metafavicon.html %}
 
-<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/full-page-navigation/style.css" type="text/css" media="all">
-<link href="https://template.pc-cdn.de/assets/lightbox/css/lightbox.css" rel="stylesheet" />
-<script type="text/javascript" src="https://template.pc-cdn.de/assets/lightbox/js/lightbox.js"></script>
+<link rel="stylesheet" href="{{ site.templateserverurl }}/assets/css/full-page-navigation/style.css" type="text/css" media="all">
+<link href="{{ site.templateserverurl }}/assets/lightbox/css/lightbox.css" rel="stylesheet" />
+<script type="text/javascript" src="{{ site.templateserverurl }}/assets/lightbox/js/lightbox.js"></script>
 <style>
 #kuller {
  margin: auto;
@@ -262,11 +268,6 @@
 </footer><!-- #colophon -->
 </div>
 <!-- #page -->
-
-<script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.9/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/lighthouse/js/bootstrap.js" id="bootstrap-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/lighthouse/js/skip-link-focus-fix.js" id="lighthouse-skip-link-focus-fix-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/lighthouse/js/lighthouse.js" id="lighthouse-js-js"></script>
 
 </body>
 </html>

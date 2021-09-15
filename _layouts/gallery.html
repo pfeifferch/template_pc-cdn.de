@@ -3,7 +3,10 @@ layout: default
 ---
 <p>
    <span class="meta genericon genericon-month">&nbsp;</span>Veröffentlicht am: {{ page.date | date: "%d.%m.%Y" }}
-    <span class="meta genericon genericon-user">&nbsp;</span>Veröffentlicht von:  {{ author.name }} {{ page.author }} {{ post.author }}
+    <span class="meta genericon genericon-user">&nbsp;</span>Veröffentlicht von: 
+      <a href="{{ site.baseurl }}/author/{{ author.name }}.html">{{ author.name }}</a> 
+      <a href="{{ site.baseurl }}/author/{{ page.author }}.html">{{ page.author }}</a> 
+      <a href="{{ site.baseurl }}/author/{{ post.author }}.html">{{ post.author }}</a> 
 </p>
 
 

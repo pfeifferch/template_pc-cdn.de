@@ -9,23 +9,17 @@
   <title>{{ page.title }} - {{ site.title }} &#8211; {{ site.subtitle }}</title>
 <meta name="robots" content="max-image-preview:large">
 
-<link rel="stylesheet" id="genericons-css" href="{{ site.templateserverurl }}/assets/genericons/genericons/mod-hbb-genericons.css" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="https://template.pc-cdn.de/assets/genericons/genericons/mod-hbb-genericons.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
 <link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="bootstrap-css" href="{{ site.templateserverurl }}//content/themes/lighthouse/css/bootstrap.css" type="text/css" media="all">
-<link rel="stylesheet" id="lighthouse-style-css" href="{{ site.templateserverurl }}//content/themes/lighthouse/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="https://template.pc-cdn.de//content/themes/lighthouse/css/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="lighthouse-style-css" href="https://template.pc-cdn.de//content/themes/lighthouse/style.css" type="text/css" media="all">
 {% include lighthouse-style-inline-css.html %}
-<link rel="stylesheet" id="font-awesome-css" href="{{ site.templateserverurl }}/content/themes/lighthouse/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://template.pc-cdn.de/content/themes/lighthouse/font-awesome/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="lighthousegooglefonts-css" href="//fonts.googleapis.com/css?family=Lato:400,300italic,700,700i|Source+Sans+Pro:400,400italic" type="text/css" media="all">
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9/css/jetpack.css" type="text/css" media="all">
-
-<script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.9/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
-<script type="text/javascript" src="{{ site.templateserverurl }}/content/themes/lighthouse/js/bootstrap.js" id="bootstrap-js"></script>
-<script type="text/javascript" src="{{ site.templateserverurl }}/content/themes/lighthouse/js/skip-link-focus-fix.js" id="lighthouse-skip-link-focus-fix-js"></script>
-<script type="text/javascript" src="{{ site.templateserverurl }}/content/themes/lighthouse/js/lighthouse.js" id="lighthouse-js-js"></script>
-
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <!--[if lt IE 9]>
@@ -62,7 +56,7 @@
 	text-decoration: line-through;
 }</style>
 <style type="text/css" id="lighthouse-header-css">.site-header {
-					background: url({{ page.themeBGimage | default: site.themeBGimage }}) no-repeat scroll top;
+					background: url({{ site.themeBGimage }}) no-repeat scroll top;
 											background-size: cover;
 						background-position:center;
 						height: 500px
@@ -97,7 +91,7 @@
 			    	-o-box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
 			    	box-shadow: 0px 0px 2px 1px rgba(182,182,182,0.3);
 				}</style>
-<style type="text/css" id="custom-background-css">body.custom-background { background-color: #{{ page.themecolor | default: site.themecolor }}; }</style>
+<style type="text/css" id="custom-background-css">body.custom-background { background-color: #{{ site.themecolor }}; }</style>
 				<style type="text/css">/* If html does not have either class, do not show lazy loaded images. */
 				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
 					display: none;
@@ -111,22 +105,23 @@
 <!-- Open Graph Tags -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ site.title }}">
-<meta property="og:description" content="{{ page.description | default: site.description }}">
-<meta name="description" content="{{ page.description | default: site.description }}" />
+<meta property="og:description" content="{{ site.subtitle }}">
 <meta property="og:url" content="./">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:image:width" content="512">
 <meta property="og:image:height" content="512">
 <meta property="og:locale" content="de_DE">
+<meta name="twitter:text:title" content="Willkommen">
+<meta name="twitter:card" content="summary">
 
 <!-- End Open Graph Tags -->
 
 {% include gads.html %}
 {% include metafavicon.html %}
 
-<link rel="stylesheet" href="{{ site.templateserverurl }}/assets/css/full-page-navigation/style.css" type="text/css" media="all">
-<link href="{{ site.templateserverurl }}/assets/lightbox/css/lightbox.css" rel="stylesheet" />
-<script type="text/javascript" src="{{ site.templateserverurl }}/assets/lightbox/js/lightbox.js"></script>
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/full-page-navigation/style.css" type="text/css" media="all">
+<link href="https://template.pc-cdn.de/assets/lightbox/css/lightbox.css" rel="stylesheet" />
+<script type="text/javascript" src="https://template.pc-cdn.de/assets/lightbox/js/lightbox.js"></script>
 <style>
 #kuller {
  margin: auto;
@@ -262,12 +257,16 @@
 </div>
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="row site-info">
-{% include socialmedia.html %}	
 		{% include footer.html %}				</div>
 <!-- .site-info -->
 </footer><!-- #colophon -->
 </div>
 <!-- #page -->
+
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.9/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
+<script type="text/javascript" src="./content/themes/lighthouse/js/bootstrap.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="./content/themes/lighthouse/js/skip-link-focus-fix.js" id="lighthouse-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="./content/themes/lighthouse/js/lighthouse.js" id="lighthouse-js-js"></script>
 
 </body>
 </html>

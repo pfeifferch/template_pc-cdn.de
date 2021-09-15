@@ -22,12 +22,14 @@ layout: default
 {{ content }}
 </div>
 
-{% if site.deactivaterelatedposts != "true" %} 
+{% if site.deactivaterelatedposts == true %} 
 <!-- site_deactivate_related_posts = {{ site.deactivaterelatedposts }} -->
 {% else %} 
-  {% if page.deactivaterelatedposts != "true" %} 
+  {% if page.deactivaterelatedposts == true %} 
    <!-- page_deactivate_related_posts = {{ page.deactivaterelatedposts }} -->
   {% else %} 
+ <!-- 2 site_deactivate_related_posts = {{ site.deactivaterelatedposts }} -->
+ <!-- 2 page_deactivate_related_posts = {{ page.deactivaterelatedposts }} --> 
  {% include related_posts.html %}
   {% endif %}
 {% endif %}

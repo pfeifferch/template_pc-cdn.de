@@ -16,7 +16,7 @@ GallerieDir: none
 hbbhomeurl: none
 livereload: true
 author: Christian Pfeiffer
-
+deactivaterelatedposts: true
 # Pagination Settings 
 #pagination:
 #  enabled: true

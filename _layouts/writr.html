@@ -16,7 +16,15 @@
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9.1/css/jetpack.css" type="text/css" media="all">
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-
+<!-- FAS-css
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/css/all.css">
+--->
+<!-- FAS-js -->
+<script defer src="https://template.pc-cdn.de/assets/fontawesome/js/all.js"></script>
+<!-- -->
+<!-- FAS-fascdn
+<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
+-->
 
 <!--
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://template.pc-cdn.de/xmlrpc.php?rsd">
@@ -86,6 +94,9 @@
 
 			</div>
 <!-- .entry-content -->
+<div class="article-footer">
+{% include article-footer.html %}
+</div>
 	</article><!-- #post-## -->
 
 				
@@ -103,12 +114,15 @@
 		<div class="site-info">
 			<div>Theme: Writr von <a href="http://wordpress.com/themes/writr/" rel="designer">WordPress.com</a>.</div>
 		</div>
+<div class="page-footer">
+{% include page-footer.html %}
+</div>
 <!-- .site-info -->
 	</footer><!-- #colophon -->
 </div>
 <!-- #page -->
 
-{% include footer.html %}
+
 {% include cookiebanner.html %}
 
 <div style="text-align: center !important; vertical-align: middle !important">
@@ -120,7 +134,6 @@
 <script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/skip-link-focus-fix.js" id="writr-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/underscore.min.js" id="underscore-js"></script>
 <script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/writr.js" id="writr-script-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/intersection-observer.js" id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
 <script type="text/javascript" id="jetpack-lazy-images-js-extra">
 /* <![CDATA[ */
 var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};

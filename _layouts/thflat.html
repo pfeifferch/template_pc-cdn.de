@@ -41,7 +41,15 @@ img.emoji {
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9.1/css/jetpack.css" media="all">
 <script src="https://c0.wp.com/c/5.8/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script src="https://c0.wp.com/c/5.8/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<!-- FAS-css
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/css/all.css">
+--->
+<!-- FAS-js -->
+<script defer src="https://template.pc-cdn.de/assets/fontawesome/js/all.js"></script>
+<!-- -->
+<!-- FAS-fascdn
 <script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
+-->
 <link href="{{ site.templateserverurl }}/assets/lightbox/css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="{{ site.templateserverurl }}/assets/lightbox/js/lightbox.js"></script>
 <script src="{{ site.templateserverurl }}/content/themes/flat/assets/js/flat.min.js?ver=1.7.11" id="flat-js-js"></script>
@@ -90,10 +98,13 @@ img.emoji {
 						<h1 class="entry-title" itemprop="name">{{ page.title | default: site.name }}</h1>
 					</header>
 <div class="entry-content" itemprop="articleBody">
-{{ content }}																</div>
+{{ content }}	
+<div class="article-footer">
+{% include article-footer.html %}
+</div>															</div>
 </article></div>
 
-{% include footer.html %}								</div>
+{% include page-footer.html %}								</div>
 		</div>
 	</div>
 </div>

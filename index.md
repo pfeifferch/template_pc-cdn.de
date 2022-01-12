@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /index.html
-title: PC-CDN - THEME/TEMPLATE Server : theme files 4 pc-cdn
+title: PC-CDN - THEME/TEMPLATE Server &#58; theme files 4 pc-cdn
 ---
 
 - websites @.pc-cdn.de based on jekyll-gulp-sass-browser-sync (exception subdomain goto. )

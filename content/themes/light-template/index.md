@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Example Template
+h2title: Example headline
+h3title: lorem ipsum dolor tres amet
+h4title: lorem ipsum dolor quadro amet 
+content: lorem ipsum contentus exemplarus
 permalink: /content/themes/light-template/index.html
 ---
 <!DOCTYPE html>
@@ -15,7 +19,8 @@ permalink: /content/themes/light-template/index.html
 <body>
 
 <div class="header">
-  {% include header.html %} 
+  <h2 style="text-align:center;"><i style="font-family:Verdana,sans-serif;font-weight:150; ">{{ page.h2title | default: site.name }}</i></h2>
+  <h4 style="text-align:center;"><i style="font-family:Arial,sans-serif;font-weight:50; ">{{ page.h4title | default: site.name }}</i></h4>
 </div>
 
 <div class="row">
@@ -24,8 +29,8 @@ permalink: /content/themes/light-template/index.html
   </div>
 
   <div class="col-6 col-s-9">
-    <h3>{{ page.title | default: site.name }}</h3>
-    <p>{{ page.title | default: site.name }}</p>
+    <h3>{{ page.h3title | default: site.name }}</h3>
+    <p>{{ page.content | default: site.name }}</p>
   </div>
 
   <div class="col-3 col-s-12">

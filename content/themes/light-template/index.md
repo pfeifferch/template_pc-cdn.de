@@ -40,7 +40,7 @@ permalink: /content/themes/light-template/index.html
 </div>
 
 <div class="footer">
-  {% include footer.html %}
+  {% include page-footer.html %}
 </div>
 
 </body>

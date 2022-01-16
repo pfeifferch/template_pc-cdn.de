@@ -1,3 +1,7 @@
+---
+layout: default
+title: Example Template
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,12 +14,12 @@
 <body>
 
 <div class="header">
-  <?php include "./includes/header.php"; ?> 
+  {% include includes/header.htmk %} 
 </div>
 
 <div class="row">
   <div class="col-3 col-s-3 menu">
-<?php include "./includes/navigation.php"; ?>
+{% include includes/navigation.html %}
   </div>
 
   <div class="col-6 col-s-9">
@@ -25,13 +29,13 @@
 
   <div class="col-3 col-s-12">
     <div class="aside">
-      <?php include "./includes/form.php"; ?>
+      Hello World 
     </div>
   </div>
 </div>
 
 <div class="footer">
-  <?php include "./includes/footer.php"; ?>
+  {% include includes/footer.html %}
 </div>
 
 </body>

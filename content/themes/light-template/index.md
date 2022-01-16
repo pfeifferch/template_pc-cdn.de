@@ -15,12 +15,12 @@ permalink: /content/themes/light-template/index.html
 <body>
 
 <div class="header">
-  {% include includes/header.html %} 
+  {% include /_includes/header.html %} 
 </div>
 
 <div class="row">
   <div class="col-3 col-s-3 menu">
-{% include includes/navigation.html %}
+{% include /_includes/navigation.html %}
   </div>
 
   <div class="col-6 col-s-9">
@@ -36,7 +36,7 @@ permalink: /content/themes/light-template/index.html
 </div>
 
 <div class="footer">
-  {% include includes/footer.html %}
+  {% include /_includes/footer.html %}
 </div>
 
 </body>

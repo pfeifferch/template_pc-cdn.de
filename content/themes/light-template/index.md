@@ -7,7 +7,6 @@ h4title: lorem ipsum dolor quadro amet
 content: lorem ipsum contentus exemplarus
 permalink: /content/themes/light-template/index.html
 ---
-<!DOCTYPE html>
 <html>
 <head>
 <title>{{ page.title | default: site.name }}</title>

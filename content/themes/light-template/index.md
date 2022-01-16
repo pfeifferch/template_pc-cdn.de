@@ -15,7 +15,7 @@ permalink: /content/themes/light-template/index.html
 <body>
 
 <div class="header">
-  {% include includes/header.htmk %} 
+  {% include includes/header.html %} 
 </div>
 
 <div class="row">

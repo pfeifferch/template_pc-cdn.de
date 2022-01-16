@@ -4,7 +4,7 @@ title: Example Template
 h2title: Example headline
 h3title: lorem ipsum dolor tres amet
 h4title: lorem ipsum dolor quadro amet 
-content: lorem ipsum contentus exemplarus
+text: lorem ipsum contentus exemplarus
 permalink: /content/themes/light-template/index.html
 ---
 <html>
@@ -29,7 +29,7 @@ permalink: /content/themes/light-template/index.html
 
   <div class="col-6 col-s-9">
     <h3>{{ page.h3title | default: site.name }}</h3>
-    <p>{{ page.content | default: site.name }}</p>
+    <p>{{ page.text | default: site.name }}</p>
   </div>
 
   <div class="col-3 col-s-12">

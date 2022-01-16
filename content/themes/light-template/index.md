@@ -3,8 +3,8 @@
 <head>
 <title>{{ page.title | default: site.name }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://disposabl.email/assets/fontawesome/v5.0.13/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://disposabl.email/assets/fontawesome/v5.0.13/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/v5.0.13/all.css">
+<link rel="stylesheet" href="https://template.pc-cdn.de/content/themes/light-template/style.css">
 
 </head>
 <body>

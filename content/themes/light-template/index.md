@@ -1,4 +1,5 @@
 ---
+layout: none
 title: Example Template
 h2title: Example headline
 h3title: lorem ipsum dolor tres amet

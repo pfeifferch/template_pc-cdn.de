@@ -35,6 +35,7 @@ permalink: /content/themes/light-template/index.html
   <div class="col-3 col-s-12">
     <div class="aside">
       Hello World 
+      <!-- origin: https://github.com/ervkgithub/html-css-js-jquery/blob/master/Blink-text-responsive.html -->responsive.html&ved=2ahUKEwjMqrTCjLX1AhXF_7sIHaU_BfUQFnoECC8QAQ&usg=AOvVaw2Uj7Zv3ZN4gKDJIoU8xqBF
     </div>
   </div>
 </div>

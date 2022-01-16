@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Example Template
+permalink: /content/themes/light-template/index.html
 ---
 <!DOCTYPE html>
 <html>

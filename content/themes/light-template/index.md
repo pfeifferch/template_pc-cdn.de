@@ -6,6 +6,7 @@ h3title: lorem ipsum dolor tres amet
 h4title: lorem ipsum dolor quadro amet 
 text: lorem ipsum contentus exemplarus
 permalink: /content/themes/light-template/index.html
+themelogo: ""
 ---
 <html>
 <head>

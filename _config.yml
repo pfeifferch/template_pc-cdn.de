@@ -1,7 +1,7 @@
-name: "PC-CDN"
-title: "PC-CDN"
-subtitle: "Theme/Template CDN"
-description: "Theme/Template - Server | PC-CDN" #metadescription
+name: "PC-CDN.de"
+title: "PC-CDN.de"
+subtitle: "DE Theme/Template CDN"
+description: "Theme/Template - DE Server | PC-CDN.de" #metadescription
 markdown: kramdown
 highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]

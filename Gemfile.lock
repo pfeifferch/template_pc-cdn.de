@@ -79,6 +79,6 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 #BUNDLED WITH
-#   2.1 2
+#   2.2.26
 BUNDLED WITH
-   2.2.26
+   2.1.2

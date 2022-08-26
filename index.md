@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: writr
 permalink: /index.html
 title: PC-CDN - THEME/TEMPLATE Server &#58; theme files 4 pc-cdn
 ---

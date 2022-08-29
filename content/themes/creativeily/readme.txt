@@ -62,7 +62,7 @@ URL: http://opensource.org/licenses/mit-license.html
  License: Apache License, version 2.0
  License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
- - Fira Sans - http://fonts.googleapis.com/css?family=Fira+Sans
+ - Fira Sans - https://css.fonts.pc-cdn.eu/css?family=Fira+Sans
  License: SIL Open Font License, 1.1
  License URI: http://scripts.sil.org/OFL
 
@@ -126,7 +126,7 @@ URL: http://opensource.org/licenses/mit-license.html
 	* License: Apache License, version 2.0
 	* License URI: http://www.apache.org/licenses/LICENSE-2.0.html
 
- * Fira Sans - http://fonts.googleapis.com/css?family=Fira+Sans
+ * Fira Sans - https://css.fonts.pc-cdn.eu/css?family=Fira+Sans
 	* License: SIL Open Font License, 1.1
 	* License URI: http://scripts.sil.org/OFL
 

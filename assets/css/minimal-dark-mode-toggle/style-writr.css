@@ -6,7 +6,10 @@
 	background: #303030 !important;
 	color: #0000ff !important;
 }
-body.dark-mode button { background-color: #eee; color: #111;}
+.dark-mode button { 
+background-color: #eee; 
+color: #111;
+}
 #body.content-area.dark-mode {
 background-color: #303030 !important;
 	background: #303030 !important;
@@ -23,7 +26,10 @@ background-color: #303030 !important;
  background: #ffffff !important;
  color: #303030 !important;
 }
-body.light-mode button { background-color: #111; color: #eee;}
+.light-mode button {
+ background-color: #111;
+ color: #eee;
+}
 #body.content-area.light-mode {
 background-color: #ffffff !important;
 	background: #ffffff !important;

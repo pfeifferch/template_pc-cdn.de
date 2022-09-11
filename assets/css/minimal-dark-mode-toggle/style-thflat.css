@@ -1,4 +1,27 @@
 @import url("https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css");
 
 
+#body.dark-mode {
+ background-color: #fefefe !important
+	background: #fefefe !important;
+	color: #000000 !important;
+}
+#body.light-mode {
+	background-color: #ffffff !important;
+ background: #ffffff !important;
+ color: #303030 !important;
+}
+
+#contenttoggler.dark-mode {
+ background-color: #fefefe !important
+	background: #fefefe !important;
+	color: #000000 !important;
+}
+#contenttoggler.light-mode {
+	background-color: #ffffff !important;
+ background: #ffffff !important;
+ color: #303030 !important;
+}
+
+
 

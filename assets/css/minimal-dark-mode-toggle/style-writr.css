@@ -1,0 +1,43 @@
+//@import url("https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css");
+
+/* .dark-mode {
+ background-color: #303030 !important
+	background: #303030 !important;
+	color: #ffffff !important;
+}
+.light-mode {
+	background-color: #ffffff !important;
+ background: #ffffff !important;
+ color: #303030 !important;
+} */
+
+.dark_light_button.dark-mode { 
+background-color: #303030 !important; 
+color: #ffffff !important;
+}
+.dark_light_button.light-mode {
+ background-color: #ffffff !important;
+ color: #303030 !important;
+}
+
+.content-area.dark-mode {
+ background-color: #303030 !important;
+	background: #303030 !important;
+	color: #ffffff !important;
+}
+.content-area.light-mode {
+ background-color: #ffffff !important;
+	background: #ffffff !important;
+	color: #303030 !important;
+}
+
+#entry-title.dark-mode {
+ background-color: #222222 !important;
+	background: #222222 !important;
+	color: #ffffff !important;
+}
+#entry-title.light-mode {
+ background-color: #ffffff !important;
+	background: #ffffff !important;
+	color: #303030 !important;
+}

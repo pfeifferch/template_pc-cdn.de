@@ -50,9 +50,9 @@ var(--dark-grey)
 }
 
 #entry-title.dark-mode {
- background-color: #222222 !important;
- background: #222222 !important;
- color: #585e6e !important;
+ background-color: #585e6e !important;
+ background: #585e6e !important;
+ color: #222222 !important;
 }
 #entry-title.light-mode {
  background-color: #ffffff !important;

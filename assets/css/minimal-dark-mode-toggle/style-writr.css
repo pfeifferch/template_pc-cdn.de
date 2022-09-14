@@ -29,10 +29,12 @@ var(--dark-grey)
 
 .dark_light_button.dark-mode { 
  background-color: var(--dark-color) !important; 
+ background: var(--dark-color) !important; 
  color: var(--light-color) !important;
 }
 .dark_light_button.light-mode {
  background-color: var(--light-color) !important;
+ background: var(--light-color) !important;
  color: var(--dark-color) !important;
 }
 

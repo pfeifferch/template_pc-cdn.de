@@ -1,53 +1,69 @@
 //@import url("https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css");
 
+
+:root{
+--dark-color: #303030;
+--dark-bg-color: #222222;
+--light-color: #ffffff;
+--dark-grey: #747474;
+}
+
+
+/*
+var(--dark-color)
+var(--dark-bg-color)
+var(--light-color)
+var(--dark-grey)
+*/
+
 /* .dark-mode {
- background-color: #303030 !important
-	background: #303030 !important;
-	color: #ffffff !important;
+ background-color: var(--dark-color) !important
+ background: var(--dark-color) !important;
+ color: var(--light-color) !important;
 }
 .light-mode {
-	background-color: #ffffff !important;
- background: #ffffff !important;
- color: #303030 !important;
+ background-color: var(--light-color) !important;
+ background: var(--light-color) !important;
+ color: var(--dark-color) !important;
 } */
 
 .dark_light_button.dark-mode { 
-background-color: #303030 !important; 
-color: #ffffff !important;
+ background-color: var(--dark-color) !important; 
+ color: var(--light-color) !important;
 }
 .dark_light_button.light-mode {
- background-color: #ffffff !important;
- color: #303030 !important;
+ background-color: var(--light-color) !important;
+ color: var(--dark-color) !important;
 }
 
 .content-area.dark-mode {
- background-color: #303030 !important;
-	background: #303030 !important;
-	color: #ffffff !important;
+ background-color: var(--dark-color) !important;
+ background: var(--dark-color) !important;
+ color: var(--light-color) !important;
 }
 .content-area.light-mode {
- background-color: #ffffff !important;
-	background: #ffffff !important;
-	color: #303030 !important;
+ background-color: var(--light-color) !important;
+ background: var(--light-color) !important;
+ color: var(--dark-color) !important;
 }
 
 #entry-title.dark-mode {
  background-color: #222222 !important;
-	background: #222222 !important;
-	color: #ffffff !important;
+ background: #222222 !important;
+ color: var(--light-color) !important;
 }
 #entry-title.light-mode {
- background-color: #ffffff !important;
-	background: #ffffff !important;
-	color: #303030 !important;
+ background-color: var(--light-color) !important;
+ background: var(--light-color) !important;
+ color: var(--dark-color) !important;
 }
 
-.dark-mode h1 { color:#ffffff; }
-.dark-mode h2 { color:#ffffff; }
-.dark-mode h3 { color:#ffffff; }
-.dark-mode h4 { color:#ffffff; }
-.dark-mode h5 { color:#ffffff; }
-.dark-mode h6 { color:#ffffff; }
+.dark-mode h1 { color:var(--dark-grey); }
+.dark-mode h2 { color:var(--dark-grey); }
+.dark-mode h3 { color:var(--dark-grey); }
+.dark-mode h4 { color:var(--dark-grey); }
+.dark-mode h5 { color:var(--dark-grey); }
+.dark-mode h6 { color:var(--dark-grey); }
 
 
 

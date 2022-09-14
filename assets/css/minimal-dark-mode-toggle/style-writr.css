@@ -48,8 +48,8 @@ var(--dark-grey)
 }
 
 #entry-title.dark-mode {
- background-color: #222222 !important;
- background: #222222 !important;
+ background-color: var(--dark-bg-color) !important;
+ background: var(--dark-bg-color) !important;
  color: var(--light-color) !important;
 }
 #entry-title.light-mode {

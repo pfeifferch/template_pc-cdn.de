@@ -43,9 +43,9 @@ body.light-mode button { background-color: #111; color: #eee; }
 }
 
 .entry-title.dark-mode {
- background-color: #222222 !important;
- background: #222222 !important;
- color: #585e6e !important;
+ background-color: #262626 !important;
+ background: #262626 !important;
+ color: #303030 !important;
 }
 .entry-title.light-mode {
  background-color: #ffffff !important;

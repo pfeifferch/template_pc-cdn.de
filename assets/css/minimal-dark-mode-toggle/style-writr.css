@@ -17,6 +17,9 @@
 body.dark-mode button { background-color: #eee; color: #111; }
 body.light-mode button { background-color: #111; color: #eee; }
 
+.dark-mode button { background-color: #eee; color: #111; }
+.light-mode button { background-color: #111; color: #eee; }
+
 .dark_light_button.dark-mode { 
  background-color: #303030 !important; 
  background: #303030 !important; 

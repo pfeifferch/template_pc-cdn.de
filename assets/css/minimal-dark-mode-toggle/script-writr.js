@@ -4,8 +4,9 @@ function toggleDarkLight() {
   var currentClass = body.className;
   body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 */
-
-
+var content = document.getElementById("page");
+  var currentClass = content.className;
+  content.className = currentClass == "hfeed site dark-mode" ? "hfeed site light-mode" : "hfeed site dark-mode";
 
 var content = document.getElementById("primary");
   var currentClass = content.className;

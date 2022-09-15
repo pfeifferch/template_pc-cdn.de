@@ -5,12 +5,12 @@
 #page.dark-mode {
  background-color: #303030 !important;
  background: #303030 !important;
- color: #ffffff !important;
+ //color: #ffffff !important;
 }
 #page.light-mode {
- background-color: #ffffff !important;
- background: #ffffff !important;
- color: #303030 !important;
+ //background-color: #ffffff !important;
+ //background: #ffffff !important;
+ //color: #303030 !important;
 } 
 
 body.dark-mode button { background-color: #eee; color: #111; }

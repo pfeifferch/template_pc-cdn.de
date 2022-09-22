@@ -5,10 +5,7 @@
 #post-2.dark-mode a {
   color: #ddd !important; //111
 }
-.dark-mode button {
-  background-color: #eee !important;
-  color: #fff !important;
-}
+
 .dark-mode blockquote {
   background-color: #ddd !important;
   color: #000 !important;
@@ -34,11 +31,23 @@
 #post-2.light-mode a {
   //color: #111 !important;
 }
-.light-mode button {
-  background-color: #111 !important;
-  color: #eee !important;
-}
 
+
+
+
+.dark-mode button { background-color: #eee; color: #111; }
+.light-mode button { background-color: #111; color: #eee; }
+
+.dark_light_button.dark-mode { 
+ background-color: #303030 !important; 
+ background: #303030 !important; 
+ color: #ffffff !important;
+}
+.dark_light_button.light-mode {
+ background-color: #ffffff !important;
+ background: #ffffff !important;
+ color: #303030 !important;
+}
 
 
 

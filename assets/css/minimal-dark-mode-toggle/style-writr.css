@@ -65,7 +65,7 @@ body.light-mode button { background-color: #111; color: #eee; }
  color: #303030;
 }
 
-.dark-mode #site-description h2 { color:#7d7d7d !important; }
+.dark-mode .site-description h2 { color:#7d7d7d !important; }
 
 
 

@@ -32,7 +32,11 @@
   //color: #111 !important;
 }
 
-
+.dark-mode code{
+ background-color: #4f4f4f !important; 
+ background: #4f4f4f !important;
+ color: #303030;
+}
 
 
 .dark-mode button { background-color: #eee; color: #111; }

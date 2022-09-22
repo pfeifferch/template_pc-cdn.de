@@ -52,14 +52,18 @@ body.light-mode button { background-color: #111; color: #eee; }
  color: #262626 !important;
 }
 
-.dark-mode h1 { color:#585e6e !important; }
-.dark-mode h2 { color:#585e6e !important; }
-.dark-mode h3 { color:#585e6e !important; }
-.dark-mode h4 { color:#585e6e !important; }
-.dark-mode h5 { color:#585e6e !important; }
-.dark-mode h6 { color:#585e6e !important; }
+.dark-mode h1 { color:#4f4f4f !important; }
+.dark-mode h2 { color:#4f4f4f !important; }
+.dark-mode h3 { color:#4f4f4f !important; }
+.dark-mode h4 { color:#4f4f4f !important; }
+.dark-mode h5 { color:#4f4f4f !important; }
+.dark-mode h6 { color:#4f4f4f !important; }
 
-
+.dark-mode code{
+ background-color: #4f4f4f !important; 
+ background: #4f4f4f !important;
+ color: #303030;
+}
 
 
 

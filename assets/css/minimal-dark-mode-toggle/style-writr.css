@@ -29,7 +29,7 @@ body.light-mode button { background-color: #111; color: #eee; }
  background: #ffffff !important;
  color: #303030 !important;
 }
-
+// genereller Haupttext
 .content-area.dark-mode {
  background-color: #303030 !important;
  background: #303030 !important;
@@ -40,7 +40,7 @@ body.light-mode button { background-color: #111; color: #eee; }
  background: #ffffff !important;
  color: #303030 !important;
 }
-
+// Überschrift der Content-Area
 .entry-title.dark-mode {
  background-color: #262626 !important;
  background: #262626 !important;
@@ -52,6 +52,7 @@ body.light-mode button { background-color: #111; color: #eee; }
  color: #262626 !important;
 }
 
+// Überschriften 
 .dark-mode h1 { color:#4f4f4f !important; }
 .dark-mode h2 { color:#4f4f4f !important; }
 .dark-mode h3 { color:#4f4f4f !important; }
@@ -59,16 +60,22 @@ body.light-mode button { background-color: #111; color: #eee; }
 .dark-mode h5 { color:#4f4f4f !important; }
 .dark-mode h6 { color:#4f4f4f !important; }
 
+// Text als Code anzeigen (eher nicht verwendet aber besser haben als brauchen)
 .dark-mode code{
  background-color: #4f4f4f !important; 
  background: #4f4f4f !important;
  color: #303030;
 }
 
+// Tabellen (ISE)
+.content-area.dark-mode tr {}
+.content-area.dark-mode th {background-color: #101010 !important; color: #ececec !important;}
+.content-area.dark-mode td {background-color: #1d1d1d; color: #efefef;}
+
+// Sub-Titelleiste der Website 
 .dark-mode .site-description { color:#7d7d7d !important; }
 
+// links im Haupttext, nur wenn Farbe = dlt 
 #body.color-scheme-dlt .dark-mode .content-area a { color:#aaaaaa !important; } 
-
-
 
 

@@ -67,6 +67,7 @@ body.light-mode button { background-color: #111; color: #eee; }
 
 .dark-mode .site-description { color:#7d7d7d !important; }
 
+#body.color-scheme-dlt .dark-mode a { color:#aaaaaa !important; } 
 
 
 

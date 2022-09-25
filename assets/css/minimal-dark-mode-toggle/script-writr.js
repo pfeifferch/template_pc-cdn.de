@@ -17,14 +17,13 @@ var content = document.getElementById("entry-title");
   content.className = currentClass == "entry-title dark-mode" ? "entry-title light-mode" : "entry-title dark-mode";
 
 
-// ISE: Alle Elemente toggeln (mehrere Einträge mit selber ID)
+// ISE: Alle Elemente per ClassName toggeln (da mehrere Einträge mit selber ID)
 const collection = document.getElementsByClassName("ise-entry-title");
 let numb = collection.length;
 for (i = 0; i < collection.length; i++) {
 //alert(collection[i]);
 var currentClass = collection[i].className;
-
-collection[i].className = currentClass == "entry-title dark-mode" ? "entry-title light-mode" : "entry-title dark-mode"; 
+collection[i].className = currentClass == "ise-entry-title dark-mode" ? "ise-entry-title light-mode" : "ise-entry-title dark-mode"; 
 }
 
 

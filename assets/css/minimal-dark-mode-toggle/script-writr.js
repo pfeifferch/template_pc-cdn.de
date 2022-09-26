@@ -19,7 +19,7 @@ var content = document.getElementById("entry-title");
 
 // ISE: Alle Elemente per ClassName toggeln (da mehrere Einträge mit selber ID)
 const collection = document.getElementsByClassName("ise-entry-title");
-let numb = collection.length;
+let numb = collection.length;
 for (i = 0; i < collection.length; i++) {
 //alert(collection[i]);
 var currentClass = collection[i].className;

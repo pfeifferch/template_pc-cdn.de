@@ -3,7 +3,8 @@ body.dark-mode {
   color: #eee;
 }
 body.dark-mode a {
-  color: #111;
+  color: #ddd;
+  text-decoration-style: dotted;
 }
 body.dark-mode button {
   background-color: #eee;
@@ -11,7 +12,7 @@ body.dark-mode button {
 }
 
 body.light-mode {
-  background-color: #eee;
+  background-color: #fff;
   color: #111;
 }
 body.light-mode a {

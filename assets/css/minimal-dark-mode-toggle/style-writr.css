@@ -37,6 +37,8 @@ body.light-mode button { background-color: #111; color: #eee; }
  background: #303030 !important;
  color: #ffffff !important;
  min-height: 100vh;
+ margin: -40px 0 0 0;
+ padding-top: 40px;
 }
 .content-area.light-mode {
  background-color: #ffffff !important;

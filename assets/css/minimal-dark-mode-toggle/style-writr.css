@@ -55,6 +55,28 @@ body.light-mode button { background-color: #111; color: #eee; }
  color: #262626 !important;
 }
 
+
+/* Überschrift ISE Einträge */
+.ise-entry-title:after { 	content: ''; 	z-index: 2; 	display: block; 	position: absolute; 	top: 25px; 	left: -5px; 	border-right: 5px solid #f5f5f5; 	border-top: 5px solid transparent; 	border-bottom: 5px solid transparent; }
+.ise-entry-title.dark-mode{
+ background: #262626 !important;
+ color: #4f4f4f !important;
+
+ position: relative; 
+	padding: 15px 40px;
+ 	margin: 0 0 0 -40px;
+ 	width: 100%; 	
+ 	font-weight: bold;
+}
+.ise-entry-title.light-mode, .ise-entry-title.light-mode a {
+ background-color: #d9d9d9 !important;
+ background: #d9d9d9 !important;
+ color: #262626 !important;
+}
+
+
+
+
 /* Überschriften */
 .dark-mode h1 { color:#4f4f4f !important; }
 .dark-mode h2 { color:#4f4f4f !important; }
@@ -80,5 +102,3 @@ body.light-mode button { background-color: #111; color: #eee; }
 
 /* links im Haupttext, nur wenn Farbe = dlt */
 #body.color-scheme-dlt .dark-mode .content-area a { color:#aaaaaa !important; } 
-
-

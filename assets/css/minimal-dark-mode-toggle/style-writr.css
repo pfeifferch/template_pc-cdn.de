@@ -1,6 +1,7 @@
-//@import url("https://template.pc-cdn.de/content/themes/writr/css/red.css");
-
-//@import url("https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css");
+/*
+@import url("https://template.pc-cdn.de/content/themes/writr/css/red.css");
+@import url("https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css");
+*/
 
 #page.dark-mode {
  background-color: #303030 !important;
@@ -37,8 +38,8 @@ body.light-mode button { background-color: #111; color: #eee; }
  background: #303030 !important;
  color: #ffffff !important;
  min-height: 100vh;
- margin: -40px 0 0 0;
- padding-top: 40px;
+ /*margin: -40px 0 0 0;
+ padding-top: 40px;*/
 }
 .content-area.light-mode {
  background-color: #ffffff !important;

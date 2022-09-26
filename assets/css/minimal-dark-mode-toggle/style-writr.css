@@ -78,7 +78,7 @@ body.light-mode button { background-color: #111; color: #eee; }
  	width: 100%; 	
  	font-weight: bold;
 }
-.ise-entry-title.light-mode, .ise-entry-title.light-mode a {
+.ise-entry-title.light-mode {
  background: #f5f5f5;
  color: #303030;
  position: relative; 

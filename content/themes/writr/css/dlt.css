@@ -1,19 +1,20 @@
-/*
+:root { 
+--main-color: #3d4857; 
+--second-color: #B5c5c9; 
 
-Color: DLT
+/* Colorset: DLT */
 
-*/
-
+}
 
 /* =Global
 ----------------------------------------------- */
 
 cite {
-	color: #3d4857;
+	color: var(--main-color);
 }
 mark,
 ins {
-	background: #3d4857;
+	background: var(--main-color);
 }
 
 /* Forms */
@@ -21,13 +22,13 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background: #3d4857;
+	background: var(--main-color);
 }
 .widget-area button,
 .widget-area html input[type="button"],
 .widget-area input[type="reset"],
 .widget-area input[type="submit"] {
-	color: #3d4857;
+	color: var(--main-color);
 }
 button:hover,
 html input[type="button"]:hover,
@@ -41,7 +42,7 @@ button:active,
 html input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 .widget-area input[type="text"],
 .widget-area input[type="url"],
@@ -49,17 +50,17 @@ input[type="submit"]:active {
 .widget-area input[type="password"],
 .widget-area input[type="search"],
 .widget-area textarea {
-	border-color: #B5c5c9;
+	border-color: var(--second-color);
 }
 
 /* Links */
 a {
-	color: #3d4857;
+	color: var(--main-color);
 }
 a:hover,
 a:focus,
 a:active {
-	color: #B5c5c9;
+	color: var(--second-color);
 }
 
 
@@ -67,26 +68,26 @@ a:active {
 ----------------------------------------------- */
 
 body:after {
-	background: #3d4857;
+	background: var(--main-color);
 }
 #sidebar-toggle {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 #sidebar-toggle:before,
 #sidebar-toggle:after {
-	border-top-color: #B5c5c9;
+	border-top-color: var(--second-color);
 }
 .site-header {
-	background: #3d4857;
+	background: var(--main-color);
 }
 .site-branding {
-	border-bottom-color: #B5c5c9;
+	border-bottom-color: var(--second-color);
 }
 .site-title a:hover {
-	color: #B5c5c9;
+	color: var(--second-color);
 }
 .site-info a:hover {
-	color: #B5c5c9;
+	color: var(--second-color);
 }
 
 
@@ -94,19 +95,19 @@ body:after {
 ----------------------------------------------- */
 
 .main-navigation:after {
-	border-bottom-color: #B5c5c9;
+	border-bottom-color: var(--second-color);
 }
 .main-navigation a:hover {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 .main-navigation ul ul {
-	background: #3d4857;
+	background: var(--main-color);
 }
 
 /* Small menu */
 #site-navigation .menu-toggle,
 .dropdown-icon {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 
 
@@ -114,11 +115,11 @@ body:after {
 ----------------------------------------------- */
 
 #social-links {
-	border-bottom-color: #B5c5c9;
+	border-bottom-color: var(--second-color);
 }
 .social-links a {
-	background: #B5c5c9;
-	color: #3d4857;
+	background: var(--second-color);
+	color: var(--main-color);
 }
 
 
@@ -129,24 +130,24 @@ body:after {
 .entry-title a:hover,
 .entry-title a:focus,
 .entry-title a:active {
-	color: #3d4857;
+	color: var(--main-color);
 }
 
 /* Entry meta */
 .entry-meta a:hover,
 .entry-meta a:focus,
 .entry-meta a:active {
-	color: #3d4857;
+	color: var(--main-color);
 }
 
 /* More link */
 .more-link {
-	background: #3d4857;
+	background: var(--main-color);
 }
 .more-link:hover,
 .more-link:focus,
 .more-link:active {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 
 
@@ -156,7 +157,7 @@ body:after {
 /* Audio */
 .wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-current,
 .wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-	background: #3d4857;
+	background: var(--main-color);
 }
 
 
@@ -166,7 +167,7 @@ body:after {
 #content [class*="navigation"] a:hover,
 #content [class*="navigation"] a:focus,
 #content [class*="navigation"] a:active {
-	color: #3d4857;
+	color: var(--main-color);
 }
 
 
@@ -177,7 +178,7 @@ body:after {
 .comment-metadata a:hover,
 .comment-metadata a:focus,
 .comment-metadata a:active {
-	color: #3d4857;
+	color: var(--main-color);
 }
 
 
@@ -185,28 +186,28 @@ body:after {
 ----------------------------------------------- */
 
 .widget {
-	border-bottom-color: #B5c5c9;
+	border-bottom-color: var(--second-color);
 }
 .widget th,
 .widget tfoot tr {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 .widget th,
 .widget td {
-	border-bottom-color: #B5c5c9;
+	border-bottom-color: var(--second-color);
 }
 
 /* Tag cloud */
 .widget_tag_cloud a {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 .content-area .widget_tag_cloud a {
-	background: #3d4857;
+	background: var(--main-color);
 }
 .widget_tag_cloud a:hover,
 .widget_tag_cloud a:focus,
 .widget_tag_cloud a:active {
-	color: #3d4857;
+	color: var(--main-color);
 }
 
 /* List */
@@ -220,16 +221,16 @@ body:after {
 .widget_recent_entries ul a:hover,
 .widget_rss ul a:hover,
 .widget_rss_links ul a:hover {
-	color: #B5c5c9;
+	color: var(--second-color);
 }
 .content-area .widget_categories ul a:hover,
 .content-area .widget_recent_entries ul a:hover {
-	color: #3d4857;
+	color: var(--main-color);
 }
 .content-area .widget_tag_cloud a:hover,
 .content-area .widget_tag_cloud a:focus,
 .content-area .widget_tag_cloud a:active {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 
 
@@ -238,13 +239,13 @@ body:after {
 
 /* Infinite scroll */
 span.infinite-loader .spinner div div {
-	background: #3d4857 !important;
+	background: var(--main-color) !important;
 }
 #infinite-handle span {
-	background: #3d4857;
+	background: var(--main-color);
 }
 #infinite-handle span:hover {
-	background: #B5c5c9;
+	background: var(--second-color);
 }
 
 /* Widget - Gravtar profile */
@@ -252,5 +253,5 @@ span.infinite-loader .spinner div div {
 .widget-grofile .grofile-full-link:hover,
 .widget-grofile .grofile-full-link:focus,
 .widget-grofile .grofile-full-link:active {
-	color: #3d4857;
+	color: var(--main-color);
 }

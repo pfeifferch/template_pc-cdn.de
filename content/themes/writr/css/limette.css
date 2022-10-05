@@ -1,0 +1,257 @@
+:root { 
+--main-color: #c3cb77; 
+--second-color: #5d603c; 
+
+/* Colorset: Limette */
+
+}
+
+/* =Global
+----------------------------------------------- */
+
+cite {
+	color: var(--main-color);
+}
+mark,
+ins {
+	background: var(--main-color);
+}
+
+/* Forms */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: var(--main-color);
+}
+.widget-area button,
+.widget-area html input[type="button"],
+.widget-area input[type="reset"],
+.widget-area input[type="submit"] {
+	color: var(--main-color);
+}
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+html input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background: var(--second-color);
+}
+.widget-area input[type="text"],
+.widget-area input[type="url"],
+.widget-area input[type="email"],
+.widget-area input[type="password"],
+.widget-area input[type="search"],
+.widget-area textarea {
+	border-color: var(--second-color);
+}
+
+/* Links */
+a {
+	color: var(--main-color);
+}
+a:hover,
+a:focus,
+a:active {
+	color: var(--second-color);
+}
+
+
+/* =Theme
+----------------------------------------------- */
+
+body:after {
+	background: var(--main-color);
+}
+#sidebar-toggle {
+	background: var(--second-color);
+}
+#sidebar-toggle:before,
+#sidebar-toggle:after {
+	border-top-color: var(--second-color);
+}
+.site-header {
+	background: var(--main-color);
+}
+.site-branding {
+	border-bottom-color: var(--second-color);
+}
+.site-title a:hover {
+	color: var(--second-color);
+}
+.site-info a:hover {
+	color: var(--second-color);
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation:after {
+	border-bottom-color: var(--second-color);
+}
+.main-navigation a:hover {
+	background: var(--second-color);
+}
+.main-navigation ul ul {
+	background: var(--main-color);
+}
+
+/* Small menu */
+#site-navigation .menu-toggle,
+.dropdown-icon {
+	background: var(--second-color);
+}
+
+
+/* =Social links
+----------------------------------------------- */
+
+#social-links {
+	border-bottom-color: var(--second-color);
+}
+.social-links a {
+	background: var(--second-color);
+	color: var(--main-color);
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+/* Entry title */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: var(--main-color);
+}
+
+/* Entry meta */
+.entry-meta a:hover,
+.entry-meta a:focus,
+.entry-meta a:active {
+	color: var(--main-color);
+}
+
+/* More link */
+.more-link {
+	background: var(--main-color);
+}
+.more-link:hover,
+.more-link:focus,
+.more-link:active {
+	background: var(--second-color);
+}
+
+
+/* =Media
+----------------------------------------------- */
+
+/* Audio */
+.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: var(--main-color);
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+#content [class*="navigation"] a:hover,
+#content [class*="navigation"] a:focus,
+#content [class*="navigation"] a:active {
+	color: var(--main-color);
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+/* Comment metadata */
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:active {
+	color: var(--main-color);
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget {
+	border-bottom-color: var(--second-color);
+}
+.widget th,
+.widget tfoot tr {
+	background: var(--second-color);
+}
+.widget th,
+.widget td {
+	border-bottom-color: var(--second-color);
+}
+
+/* Tag cloud */
+.widget_tag_cloud a {
+	background: var(--second-color);
+}
+.content-area .widget_tag_cloud a {
+	background: var(--main-color);
+}
+.widget_tag_cloud a:hover,
+.widget_tag_cloud a:focus,
+.widget_tag_cloud a:active {
+	color: var(--main-color);
+}
+
+/* List */
+.widget_archive ul a:hover,
+.widget_categories ul a:hover,
+.widget_links ul a:hover,
+.widget_nav_menu ul a:hover,
+.widget_meta ul a:hover,
+.widget_pages ul a:hover,
+.widget_recent_comments ul a:hover,
+.widget_recent_entries ul a:hover,
+.widget_rss ul a:hover,
+.widget_rss_links ul a:hover {
+	color: var(--second-color);
+}
+.content-area .widget_categories ul a:hover,
+.content-area .widget_recent_entries ul a:hover {
+	color: var(--main-color);
+}
+.content-area .widget_tag_cloud a:hover,
+.content-area .widget_tag_cloud a:focus,
+.content-area .widget_tag_cloud a:active {
+	background: var(--second-color);
+}
+
+
+/* =Jetpack
+----------------------------------------------- */
+
+/* Infinite scroll */
+span.infinite-loader .spinner div div {
+	background: var(--main-color) !important;
+}
+#infinite-handle span {
+	background: var(--main-color);
+}
+#infinite-handle span:hover {
+	background: var(--second-color);
+}
+
+/* Widget - Gravtar profile */
+.widget-grofile .grofile-full-link,
+.widget-grofile .grofile-full-link:hover,
+.widget-grofile .grofile-full-link:focus,
+.widget-grofile .grofile-full-link:active {
+	color: var(--main-color);
+}

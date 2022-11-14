@@ -1,0 +1,29 @@
+#title 	{
+    float:left;
+    font-size:x-large;
+    font-weight:700;
+    text-decoration: underline;
+}
+#title::before{
+    content: "";
+    white-space: pre;
+}
+#title::after { 
+    content: "";
+    width:100vw;
+    height: 1px;
+clear: both;
+display: block;
+}
+
+.toc{
+background-color:#e2f3fb;
+border-color: #759ab9;
+border-width: 1px;
+border-style: solid;
+border-radius:4px;
+  
+}
+.toc::before {
+  content: "TOC: ";
+}

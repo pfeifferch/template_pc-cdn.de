@@ -25,5 +25,5 @@ border-radius:4px;
   
 }
 .toc::before {
-  content: "TOC: ";
+  content: "„&#x2261";
 }
